@@ -1,0 +1,83 @@
+	<!-- Desafio 1 -->
+
+<!DOCTYPE html> <!-- Tipo de Documento -->
+<html lang="es"><!-- Etiqueta Inicial -->
+
+	<head> <!-- Cabecera, recursos y datos importantes de la web -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/whisky.jpg"> <!--Icono de Perstana -->
+	
+		<!-- Insertar/Linkear CSS de forma externa. Esta es la forma recomendada para hacerlo -->
+	   <link rel="stylesheet" href="../css/style.css">
+	
+		<title>Entrega1</title>
+	</head>
+
+	<body> <!-- Cuerpo de la Web --> 
+		<!-- fila de logo + nav --> 
+		<header>
+			<h3>LOGO</h3>
+			<nav> <!-- Etiqueta para contener enlaces de navegacion --> 
+				<ul>
+					<li><a href="../index.html">Inicio</a></li><!--Doble puntos y barra porque le pido que suba una carpeta hacia arriba a buscar el index-->
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="extras.html">Extras</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li>Contacto</li>
+				</ul>
+				</nav>
+
+				<hr/> <!-- Linea horizontal para separacion -->		
+
+		</header>
+		<!-- cierre de fila logo + nav -->
+
+		<!-- fila de información de mi sitio -->
+		<section> <!--Informacion de Contacto-->
+			<article> <!--Permite separar diversos elementos independientes que puedan estar contenidos en un mismo <section>-->
+
+				<h2>INFORMACIÓN DE CONTACTO</h2>
+
+				
+				
+			</article>
+		</section>
+			
+		<hr/> <!-- Linea horizontal para separacion -->
+	
+		<aside>
+			<form action="" method="GET" enctype="multipart/form-data">
+				<fieldset>
+					<legend>Dejanos tu mensaje:</legend>
+					
+					<label for="nombre">Nombre:</label>
+					<br>
+					<input type="text" name="nombre" value="Nombre">
+					<br>
+					<br>
+					<label for="mail">Mail:</label>
+					<br>
+					<input type="text" name="mail" placeholder="Mail">
+					<br>
+					<br>
+					<label for="mensaje">Mensaje:</label>
+					<br>
+					<input type="text" name="mensaje" placeholder="Mensaje">
+					<br>
+					<br>
+					<input type="submit" name="enviar" value="Enviar">
+				</fieldset>
+			</form>
+		</aside>
+
+
+
+		<!-- inicio de footer --> 
+		<footer id="piedepagina">
+			<h3>INFO DE CONTACTO</h3> <!-- Direccion, Tel, Mail -->
+			<h3>LOGO REDES SOCIALES</h3> <!-- Links a redes sociales -->
+			<h3>NEWSLETTER</h3> <!-- Cuadro para poder dejar el mail y suscribirse al newsletter -->
+		</footer>
+	</body>
+</html><!-- Etiqueta Fin de Documento -->
